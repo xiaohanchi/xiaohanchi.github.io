@@ -1,0 +1,14 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+
+
+Disallow: /attaches/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /links/
+
+Sitemap: http://javahikers.gitee.io/sitemap.xml
+Sitemap: http://javahikers.gitee.io/baidusitemap.xml
