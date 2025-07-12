@@ -185,8 +185,8 @@ body {
   box-sizing: border-box;
   color: var(--text-color);
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1em;
-  line-height: 2;
+  font-size: 0.9em;
+  line-height: 1.8;
   min-height: 100%;
   position: relative;
   transition: padding 0.2s ease-in-out;
@@ -383,7 +383,7 @@ pre {
 }
 figure.highlight,
 pre {
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0 auto 20px;
 }
 figure.highlight figcaption,
@@ -1211,8 +1211,8 @@ pre code {
 }
 .sidebar-inner {
   color: #999;
-  max-height: calc(100vh - 36px);
-  padding: 18px 10px;
+  max-height: calc(100vh - 30px);
+  padding: 15px 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -2419,7 +2419,7 @@ hr {
   display: none;
 }
 .posts-expand .post-block:not(:first-of-type) {
-  margin-top: 120px;
+  margin-top: 30px;
 }
 .posts-expand .post-header {
   margin-bottom: 20px;
@@ -2497,11 +2497,11 @@ hr {
   padding-bottom: 80px;
 }
 .post-block:first-of-type {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 @media (max-width: 767px) {
   .post-block:first-of-type {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 }
 @media (min-width: 992px) {
@@ -2544,7 +2544,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff982a;
+  background: #fafc8a;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
