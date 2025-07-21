@@ -1233,7 +1233,7 @@ pre code {
 }
 .site-author-image {
   border: 2px solid #333;
-  max-width: 96px;
+  max-width: 168px;
   padding: 2px;
 }
 .site-author-name {
@@ -2544,7 +2544,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #fafc8a;
+  background: #ffffb6;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
